@@ -1,8 +1,11 @@
-﻿namespace bank;
-using client;
+﻿namespace moneyPrinter;
+
+
 
 public class BankAccount
 {
+    
+    BankAccount bankAccount11 = new BankAccount(new Client(1, "Michael", DateTime.Today), 100, "savings");
     // Properties goes here
     private Client _client;
     private int balance;
@@ -53,5 +56,9 @@ public class BankAccount
         get { return balance; }
         set { balance -= value; }
     }
-    
+
+    public BankAccount getInformation()
+    {
+        return bankAccount11;
+    }
 }

@@ -1,4 +1,4 @@
-﻿namespace client;
+﻿namespace moneyPrinter;
 
 public class Client
 {
