@@ -2,11 +2,13 @@
 using System.Threading.Channels;
 using moneyPrinter;
 
- 
-    BankAccount bankAccount = new BankAccount(new Client(1, "Michael", DateTime.Today), 100, "savings");
+    App test = App.Instance;
+    test.IntroClient();
+
+    //BankAccount bankAccount = new BankAccount(new Client(1, "Michael", DateTime.Today), 100, "savings");
     //Console.WriteLine(bankAccount.CheckBalance());
     //Console.WriteLine(bankAccount.Client._name);
-    Console.WriteLine(bankAccount.getInformation());
+    //Console.WriteLine(bankAccount.GetInformation());
     //Console.WriteLine(bankAccount._type);
     //Console.WriteLine(bankAccount._balance);
 
