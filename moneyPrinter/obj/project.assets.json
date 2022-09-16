@@ -8,24 +8,31 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Michael Monteiro\\.nuget\\packages\\": {}
+    "C:\\Users\\zeebr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Michael Monteiro\\Desktop\\Projects\\Money-printer-goes-BRRRRR---C-\\moneyPrinter\\moneyPrinter.csproj",
+      "projectUniqueName": "C:\\Users\\zeebr\\Desktop\\Be-Code Projects\\Money-printer-goes-BRRRRR---C-\\moneyPrinter\\moneyPrinter.csproj",
       "projectName": "moneyPrinter",
-      "projectPath": "C:\\Users\\Michael Monteiro\\Desktop\\Projects\\Money-printer-goes-BRRRRR---C-\\moneyPrinter\\moneyPrinter.csproj",
-      "packagesPath": "C:\\Users\\Michael Monteiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Michael Monteiro\\Desktop\\Projects\\Money-printer-goes-BRRRRR---C-\\moneyPrinter\\obj\\",
+      "projectPath": "C:\\Users\\zeebr\\Desktop\\Be-Code Projects\\Money-printer-goes-BRRRRR---C-\\moneyPrinter\\moneyPrinter.csproj",
+      "packagesPath": "C:\\Users\\zeebr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zeebr\\Desktop\\Be-Code Projects\\Money-printer-goes-BRRRRR---C-\\moneyPrinter\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Michael Monteiro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\zeebr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

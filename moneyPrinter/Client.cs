@@ -2,36 +2,33 @@
 
 public class Client
 {
-    // Properties Client
-    private int id;
-    private string name;
-    private DateTime date;
+    //properties
+    private int _id;
+    private string _name;
+    private string _dateJoined;
 
-    public Client(int id, string name, DateTime date)
+    public Client(int id, string name, string dateJoined)
     {
-        // Constructor Client
-        this.id = id;
-        this.name = name;
-        this.date = date;
-    }
-    
-    // Getters and Setters
-    public int _id
-    {
-        get { return id; }
-        set { id = value; }
+        _id = id;
+        _name = name;
+        _dateJoined = dateJoined;
     }
 
-    public string _name
+    public int Id
     {
-        get { return name; }
-        set { name = value; }
+        get => _id;
+        set => _id = value;
     }
 
-    public DateTime _date
+    public string Name
     {
-        get { return date; }
-        set { date = value; }
+        get => _name;
+        set => _name = value ?? throw new ArgumentNullException(nameof(value));
+    }
+
+    public string DateJoined
+    {
+        get => _dateJoined;
+        set => _dateJoined = value ?? throw new ArgumentNullException(nameof(value));
     }
 }
-

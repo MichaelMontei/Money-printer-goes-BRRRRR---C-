@@ -2,8 +2,12 @@
 using System.Threading.Channels;
 using moneyPrinter;
 
-    App test = App.Instance;
-    test.IntroClient();
+Bank bank = new Bank("Mo Money Bank App Antwerp Belgium");
+
+bank.Greeting();
+bank.HandleRegistration();
+BankAccount bankaccount = bank.Register();
+bankaccount.OptionsBanking();
 
     //BankAccount bankAccount = new BankAccount(new Client(1, "Michael", DateTime.Today), 100, "savings");
     //Console.WriteLine(bankAccount.CheckBalance());
